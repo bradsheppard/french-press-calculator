@@ -1,7 +1,7 @@
 # French Press Calculator
 
 This project is a React web application to calculate french press ratios. The project
-utilizes [Material UI](https://github.com/react-community/create-react-native-app)  for the front-end, and is written primarily in Typescript.
+utilizes [Material UI](https://material-ui.com/)  for the front-end, and is written primarily in Typescript.
 
 
 ![Image](screen_shots/shot1.png)
