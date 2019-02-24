@@ -1,6 +1,7 @@
 # French Press Calculator
 
-This project is a React web application written in Typescript to calculate french press ratios.
+This project is a React web application to calculate french press ratios. The project
+utilizes [Material UI](https://github.com/react-community/create-react-native-app)  for the front-end, and is written primarily in Typescript.
 
 
 ![Image](screen_shots/shot1.png)
@@ -8,6 +9,12 @@ This project is a React web application written in Typescript to calculate frenc
 ![Image](screen_shots/shot2.png)
 
 ## Run via NodeJS
+
+First, ensure the node modules are install by running
+
+```
+npm install
+```
 
 To run the application in development mode, execute the command
 
@@ -41,4 +48,12 @@ To run the Docker image, execute the command
 
 ```
 docker run french-press-calculator
+```
+
+## Running Tests
+
+Component unit tests are written in [Enzyme](https://airbnb.io/enzyme/). The tests can be executed by running
+
+```
+npm test
 ```
